@@ -1,0 +1,64 @@
+.about-us-page {
+  padding: 50px 0;
+  background-color: #1e1e1e;;
+}
+
+.section {
+  margin-bottom: 60px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+.section-title {
+  font-size: 2rem;
+  color: #f0c674; /* Golden color */
+  font-weight: bold;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #dddddd;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(240, 198, 116, 0.2); /* Soft golden shadow */
+}
+
+.cta-button {
+  background: linear-gradient(90deg, #f0c674, #e8b750);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #000000; /* Black text on the golden button */
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: linear-gradient(90deg, #e8b750, #f0c674);
+  box-shadow: 0 8px 15px rgba(240, 198, 116, 0.3); /* Enhanced golden glow */
+}
+
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-description {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+}

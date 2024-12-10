@@ -1,0 +1,52 @@
+.projects-page {
+  background-color: #1e1e1e;
+  padding: 20px;
+}
+#projecttitle{
+  color: #ffd328 !important;
+}
+.project-container {
+  border-radius: 40px !important;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgb(255, 211, 40);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-container:hover {
+  transform: scale(1.02);
+}
+
+.fixed-thumbnail {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+}
+
+.project-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.project-description {
+  font-size: 1.2rem;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #daa520;
+  color: #fff;
+}
